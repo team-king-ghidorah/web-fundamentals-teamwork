@@ -29,8 +29,8 @@ blockquote {
     quotes: none; }
 
 blockquote:before, blockquote:after {
-    content: '';
-    content: none; }
+    /*content: none;*/
+}
 
 del {
     text-decoration: line-through; }
