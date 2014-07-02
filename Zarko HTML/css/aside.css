@@ -1,0 +1,156 @@
+﻿html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+header nav ul {
+    margin: 0;
+    list-style: none;  
+    line-height: 30px;
+    text-align: right;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+aside {
+    border: 2px solid black;
+    width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 1px;
+    -webkit-animation: Hypnoza 15s;
+    animation: Hypnoza 15s;
+}
+
+@-webkit-keyframes Hypnoza {
+    0% {
+        background-image: url("/images/transformers.png");
+        background-size: cover;
+    }
+    25% {
+        background-image: url("/images/despicable me.png");
+        background-size: cover;
+    }
+    50% {
+        background-image: url("/images/talasams.png");
+        background-size: cover;
+    }
+    100% {
+        background-image: url("/images/ice-age.png");
+        background-size: cover;
+    }
+}
+aside .transformers::before{
+    content: url(/images/transformers_logo.png);
+}
+aside .despicable::before{
+    content: url("/images/despicable.png");
+}
+aside .iceage::before {
+    content: url(/images/iceage.png);
+}
+aside .transformers{
+    width: 120px;
+    height: 110px;  
+    border: 3px solid black;
+    margin: 10px 30px;
+    display:inline-block;
+    text-align: center;
+}
+aside div a {
+    color: black;
+    text-decoration:none;
+}
+aside .transformers span {
+    border-top: 2px solid black;
+    color: white;
+    font-weight:bold;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+aside .despicable{
+    width: 120px;
+    height: 110px;  
+    border: 3px solid black;
+    margin: 10px 30px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+    float: right;
+    border-top: 2px solid black;
+    color: white;
+    font-weight:bold;
+    background-color: black;
+}
+aside .first {
+    display:inline-block;
+}
+aside .second {
+    vertical-align:top;
+    display: inline-block;
+    float: right;
+}
+aside .third {
+    display:inline-block;
+    vertical-align:bottom;
+}
+aside .fourth {
+    display: inline-block;
+}
+aside .clear {
+    clear:both;
+}
+aside .iceage{
+    width: 120px;
+    height: 110px;  
+    border: 3px solid black;
+    margin: 5px 30px;
+    display:inline-block;
+    text-align: center;
+    border-top: 2px solid black;
+    color: white;
+    font-weight:bold;
+    background-color: black;
+    clear:both;
+}
+aside .monsters{
+    width: 120px;
+    height: 110px;  
+    border: 3px solid black;
+    margin: 10px 30px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+    float: right;
+    border-top: 2px solid black;
+    color: white;
+    font-weight:bold;
+    background-color: black;
+}
+aside .fourth {
+    vertical-align:top;
+    display: inline-block;
+    float: right;
+}
+aside div:first-of-type {
+    width: 100%;
+    height:20px;
+    color: white;
+    font-weight:bold;
+    font-size: large;
+    background-color: blue;
+    text-align:center;
+}
