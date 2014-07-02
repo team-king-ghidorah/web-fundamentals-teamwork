@@ -18,7 +18,7 @@
             margin: 0 auto;
             width: 980px;
             height: 125px;
-            position: fixed;
+            position: absolute;
         }
         #container{
             text-align: center;
@@ -58,6 +58,36 @@
         .uni:hover{
             opacity: 1;
         }
+        .main{
+            display: inline-block;
+            background-image: url("bg.jpg");
+            width: 1023px;
+            height: 404px;
+        }
+        #nakov{
+            display: inline-block;
+            background-image: url("nakov.png");
+            width: 338px;
+            height: 296px;
+        }
+        #teodor{
+            display: inline-block;
+            background-image: url("t-kurtev.png");
+            width: 291px;
+            height: 296px;
+        }
+        #vladislav{
+            display: inline-block;
+            background-image: url("vladislav-k.png");
+            width: 357px;
+            height: 312px;
+            margin-left: -17px;
+            margin-right: -56px;
+        }
+        .characters{
+            display: inline-block;
+            margin-top: 22px;
+        }
     </style>
 
 </head>
@@ -80,21 +110,11 @@
     </header>
     <div id="container">
         <div class="main">
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-            <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+            <div class="characters">
+                <div id="vladislav"></div>
+                <div id="nakov"></div>
+                <div id="teodor"></div>
+            </div>
         </div>
         <section id="side">
             <div id="ad-sideBar">
