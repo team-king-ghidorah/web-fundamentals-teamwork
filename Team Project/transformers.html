@@ -121,23 +121,67 @@
             width: 1008px;
             height: 800px;
         }
+        nav ul ul {
+            display: none;
+        }
+
+        nav ul li:hover > ul {
+            display: block;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul ul {
+            background: #5f6975;
+            list-style-type: none;
+            position: relative;
+        }
+        nav ul ul li {
+            float: none;
+            border-top: 1px solid #6b727c;
+            border-bottom: 1px solid #575f6a;
+            position: relative;
+        }
+        nav ul ul li a {
+            padding: 15px 40px;
+            color: #fff;
+        }
+        #nav{
+            list-style-type: none;
+        }
     </style>
 </head>
 <body bgcolor="#d9d0d0">
     <header id="the-header" class="header">
         <nav class="category">
-            <a href="/" class="home">
-                <img alt="Home" height="21" src="home1.png">
-            </a>
-            <a href="/" class="movies">
-                <img alt="Movies" height="21" src="movies.png">
-            </a>
-            <a href="/" class="jokes">
-                <img alt="Jokes" height="21" src="jokes.png">
-            </a>
-            <a href="https://softuni.bg/" class="uni">
-                <img alt="Softuni" height="21" src="softuni.png">
-            </a>
+            <ul id="nav">
+                <li>
+                    <a href="/" class="home">
+                        <img alt="Home" height="21" src="home1.png">
+                    </a>
+                </li>
+                <li>
+                <a href="/" class="movies">
+                    <img alt="Movies" height="21" src="movies.png">
+                </a>
+                    <ul>
+                        <li><a href="#">Despicable me</a></li>
+                        <li><a href="#">Transformers</a></li>
+                        <li><a href="#">Star Wars</a></li>
+                        <li><a href="#">Film</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/" class="jokes">
+                        <img alt="Jokes" height="21" src="jokes.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://softuni.bg/" class="uni">
+                        <img alt="Softuni" height="21" src="softuni.png">
+                    </a>
+                </li>
+            </ul>
         </nav>
     </header>
     <div id="container">
