@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Trying some stuff</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 1000px;
+            height: 900px;
+            margin: 0 auto;
+        }
+        .header{
+            background-image: url(cloud.png);
+            margin: 0 auto;
+            width: 980px;
+            height: 125px;
+            position: absolute;
+        }
+        #container{
+            text-align: center;
+            padding-top: 135px;
+        }
+        p{
+            color: black;
+        }
+        .category{
+            margin-left: 305px;
+            margin-top: 36px;
+        }
+        .jokes{
+            margin-right: 15px;
+            opacity: 0.8;
+        }
+        .home{
+            margin-right: 15px;
+            opacity: 0.8;
+        }
+        .movies{
+            margin-right: 15px;
+            opacity: 0.8;
+        }
+        .uni{
+            opacity: 0.8;
+        }
+        .home:hover{
+            opacity: 1;
+        }
+        .movies:hover{
+            opacity: 1;
+        }
+        .jokes:hover{
+            opacity: 1;
+        }
+        .uni:hover{
+            opacity: 1;
+        }
+        .main{
+            display: inline-block;
+            background-image: url("bg.jpg");
+            width: 1023px;
+            height: 404px;
+        }
+        #nakov{
+            display: inline-block;
+            background-image: url("nakov.png");
+            width: 338px;
+            height: 296px;
+        }
+        #teodor{
+            display: inline-block;
+            background-image: url("t-kurtev.png");
+            width: 291px;
+            height: 296px;
+        }
+        #vladislav{
+            display: inline-block;
+            background-image: url("vladislav-k.png");
+            width: 357px;
+            height: 312px;
+            margin-left: -17px;
+            margin-right: -56px;
+        }
+        .characters{
+            display: inline-block;
+            margin-top: 22px;
+        }
+    </style>
+</head>
+<body bgcolor="#d9d0d0">
+    <header id="the-header" class="header">
+        <nav class="category">
+            <a href="/" class="home">
+                <img alt="Home" height="21" src="home1.png">
+            </a>
+            <a href="/" class="movies">
+                <img alt="Movies" height="21" src="movies.png">
+            </a>
+            <a href="/" class="jokes">
+                <img alt="Jokes" height="21" src="jokes.png">
+            </a>
+            <a href="https://softuni.bg/" class="uni">
+                <img alt="Softuni" height="21" src="softuni.png">
+            </a>
+        </nav>
+    </header>
+    <div id="container">
+        <div class="main">
+            <div class="characters">
+                <div id="vladislav"></div>
+                <div id="nakov"></div>
+                <div id="teodor"></div>
+            </div>
+        </div>
+        <section id="side">
+            <div id="ad-sideBar">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
