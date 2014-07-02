@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1000px;
+    height: 900px;
+    margin: 0px auto;
+    background-color: blue;
+}
+.header{
+    background-image: url(images/cloud.png);
+    margin: 0px auto;
+    width: 980px;
+    height: 125px;
+    position: fixed;
+}
+#container{
+    text-align: center;
+    padding-top: 135px;
+}
+p{
+    color: rgb(211, 45, 45);
+}
