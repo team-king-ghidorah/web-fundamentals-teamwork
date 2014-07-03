@@ -4,7 +4,6 @@
 body{
     width: 800px;
     margin: 0 auto;
-    background-color: blue;
     border: dotted;
 }
 .header{
@@ -55,58 +54,40 @@ p{
 section {
     padding-top: 130px;
     padding-left: 20px;
-    background-color: green;
+    background-color: silver;
 }
 section p {
     font-family:'Comic Sans MS', cursive;
     text-align:justify;
 }
-section .nakov {
+section article {
     margin-top: 40px;
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    
 }
-section .nakov img{
-    float:left;
-}
-section .nakov p {
+section article p {
     margin: 0;
-    padding-left: 400px;
+    text-align:center;
+}
+section article img{
+    width: 180px;
+    height: 200px;
 }
 section .clear {
-    clear:both;
+    clear: both;
 }
-section .kurtev {
-    margin-top: 15px;
+section .resume {
+    margin: 20px 15px;
 }
-section .kurtev img {
-    float: left;
-    width: 240px;
-    height: 260px;
+section div {
+    padding-top: 20px;
 }
-section .kurtev p {
-    margin: 0;
-    padding-left: 400px;
+section div img {
+    width: 750px;
+    height: 350px;
 }
-section .karamfilov {
-    margin-top: 15px;
-}
-section .karamfilov img {
-    float: left;
-    width: 340px;
-    height: 280px;
-}
-section .karamfilov p {
-    margin: 0;
-    padding-left: 400px;
-}
-section .vladi {
-    margin-top: 15px;
-}
-section .vladi img {
-    float: left;
-    width: 260px;
-    height: 260px;
-}
-section .vladi p {
-    margin: 0;  
-    padding-left: 400px;
+section div p {
+    text-align:center;
 }
